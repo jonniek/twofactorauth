@@ -1,0 +1,8 @@
+[package]
+name = "twofactorauth"
+version = "0.1.0"
+authors = ["jonniek"]
+
+[dependencies]
+base32 = "0.3.1"
+sha-1 = "*"
