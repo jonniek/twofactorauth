@@ -1,5 +1,7 @@
 Simple CLI 2-factor authenticator.
 
+Use at own risk.
+
 To install download rust and cargo and run:
 ```
 cargo install
@@ -7,7 +9,7 @@ cargo install
   
 The binary will expect a stdin or argument of a base32 2fa key. Below is some useful scripts to use in combination with the binary.
 
-Create name key pairs in a file separated by space
+Below is a trivial example of how to store secrets. You might not want to store them plaintext.
 ```
 echo "servicename 65ZACCXCCXS6HXOFFD7ACXCCXLLA" >> ~/.keystore
 echo "servicename2 7AUSNEGACCXCCXS" >> ~/.keystore
